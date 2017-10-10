@@ -1,0 +1,201 @@
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000;
+  margin-top: 11.85rem;
+}
+
+.nav {
+  font-weight: bold;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  margin: 0 auto;
+  width: 100%;
+  opacity: 0.75;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.image-container img:hover {
+  cursor: default;
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid orange;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  line-height: 1.4;
+}
+
+.navbar-default .navbar-nav .active  a {
+  color: #399bd1;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-default .navbar-nav li a {
+  color: #777;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+.container-fluid {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url('../../resources/images/jumbotron-bike.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  min-height: 600px;
+}
+
+.jumbotron p {
+  margin: auto;
+  padding-top: 2rem;
+  width: 51.3rem;
+}
+
+.jumbotron-beer {
+  background-image: url('../../resources/images/jumbotron-beer.jpg');
+}
+
+.jumbotron-flowers {
+  background-image: url("../../resources/images/jumbotron-flowers.jpg");
+}
+
+.jumbotron-duffel {
+  background-image: url("../../resources/images/jumbotron-duffel.jpg");
+}
+
+.relative-wrapper {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: -25rem;
+}
+
+.btn-primary {
+  width: 11.4rem;
+  background-color: #399bd1;
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  -o-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  text-shadow: none;
+  margin-top: 2.8rem;
+  padding: 1.3rem 0;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: orange;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+span {
+  display: block;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.7em;
+  color: #399bd1;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.featured {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.img {
+  width: 100%;
+}
+
+.projects {
+  margin-bottom: 5.85rem;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.help {
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+}
+
+.help strong .help  p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.help strong {
+  font-size: 2.5rem;
+  font-style: bold;
+}
+
+.help p {
+  width: 42em;
+  padding-top: 1.4rem;
+  margin: auto;
+}
+
+/*Responsive CSS*/
+
+@media only screen and (max-width: 650px) {
+  nav img {
+    display: none;
+  }
+  header {
+    justify-content: center;
+    height: 7rem;
+  }
+  h1 {
+    font-size: 4.7rem;
+  }
+  .jumbotron p {
+    width: auto;
+  }
+  .help p {
+    width: auto;
+  }
+}
